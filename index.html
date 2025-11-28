@@ -241,6 +241,121 @@
     </section>
 
     <!-- ========================================
+         DENTAL IMPLANT OPTIONS SLIDER
+    ======================================== -->
+    <section class="options-section">
+        <div class="slider-container">
+            <h2 class="section-title">What Are Your Dental Implant Options?</h2>
+
+            <div class="slider-wrapper">
+                <div class="slider-track" id="sliderTrack">
+                    <!-- Card 1 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Traditional Acrylic</h3>
+                            <ul class="card-features">
+                                <li>Natural Look & Feel</li>
+                                <li>Lower Cost Fixed Option</li>
+                                <li>Leave with Teeth Same Day Of Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Hybrid Teeth</h3>
+                            <ul class="card-features">
+                                <li>Strong, Rigid Metal Bonded To Resilient Hybrid</li>
+                                <li>Highly Polishable, Beautiful Aesthetic</li>
+                                <li>Very Durable, Lightweight</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Zirconia Bridge</h3>
+                            <ul class="card-features">
+                                <li>The Greatest Combination Of Strength And Cosmetics</li>
+                                <li>Closest To The Feel Of Your Natural Teeth</li>
+                                <li>Most Durable & Long-Lasting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Single Dental Implant</h3>
+                            <ul class="card-features">
+                                <li>Superior To A Traditional Bridge</li>
+                                <li>Natural Look And Feel</li>
+                                <li>Ability To Last A Lifetime</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Multiple Dental Implants</h3>
+                            <ul class="card-features">
+                                <li>Bridge Attached To Implants</li>
+                                <li>Natural Look And Feel</li>
+                                <li>98% Chewing Ability Restored</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="option-card">
+                        <div class="card-image">
+                            <div style="font-size: 8rem;">🦷</div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Implant Supported Denture</h3>
+                            <ul class="card-features">
+                                <li>High Quality Custom Denture</li>
+                                <li>Secured By 2-4 Implants</li>
+                                <li>Snaps In & Out</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="slider-nav">
+                <button class="nav-button" id="prevBtn" onclick="moveSlider(-1)">‹</button>
+                <div class="slider-dots" id="dotsContainer"></div>
+                <button class="nav-button" id="nextBtn" onclick="moveSlider(1)">›</button>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="cta-button-wrapper">
+                <button class="cta-button" onclick="window.location.href='#contact'">Get Pricing Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
          SERVICES SECTION
     ======================================== -->
     <section class="section" id="services">
@@ -278,6 +393,14 @@
                     <h3 class="white-color">🦴 Oral Surgery</h3>
                     <p>Tooth extractions, wisdom teeth removal, and advanced procedures.</p>
                 </div>
+                <div class="service-card">
+                    <h3 class="white-color">✨ Teeth Whitening</h3>
+                    <p>Professional whitening treatments for a brighter, more confident smile.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">🩺 Periodontal Care</h3>
+                    <p>Gum disease treatment and prevention to maintain healthy gums and teeth.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -289,16 +412,33 @@
         <div class="doctor-container">
             <div class="doctor-image" style="background-image: url('https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&h=800&fit=crop');"></div>
             <div class="doctor-content">
-                <h2 class="doctor-heading">Meet Our Doctor</h2>
+                <span class="doctor-badge">🏆 Board Certified</span>
+                <h2 class="doctor-heading">Meet Your <span class="highlight">Expert Doctor</span></h2>
                 <h3 class="doctor-name">Dr. Sarah Johnson, DDS</h3>
                 <p class="doctor-specialty">Specialist in Cosmetic & Restorative Dentistry</p>
                 <p class="doctor-description">
                     With over 15 years of experience in advanced dental care, Dr. Johnson is dedicated to providing exceptional, personalized treatment for every patient. She specializes in cosmetic dentistry, dental implants, and full-mouth restorations.
                 </p>
+
+                <div class="doctor-stats">
+                    <div class="doctor-stat">
+                        <span class="doctor-stat-number">15+</span>
+                        <span class="doctor-stat-label">Years Experience</span>
+                    </div>
+                    <div class="doctor-stat">
+                        <span class="doctor-stat-number">5000+</span>
+                        <span class="doctor-stat-label">Happy Patients</span>
+                    </div>
+                    <div class="doctor-stat">
+                        <span class="doctor-stat-number">98%</span>
+                        <span class="doctor-stat-label">Success Rate</span>
+                    </div>
+                </div>
+
                 <p class="doctor-description">
                     Dr. Johnson received her Doctor of Dental Surgery degree from the prestigious University of California School of Dentistry and has completed advanced training in implantology and aesthetic dentistry. She is a member of the American Dental Association and the Academy of Cosmetic Dentistry.
                 </p>
-                <a href="#contact" class="btn-primary">Schedule a Consultation</a>
+                <a href="#contact" class="btn-primary doctor-cta">Schedule a Consultation</a>
             </div>
         </div>
     </section>
@@ -342,62 +482,62 @@
     <section class="cta-section">
         <div class="cta-container">
             <div class="cta-content">
-                <h2>Transform Your Smile, <span class="highlight">Transform Your Life</span></h2>
+                <h2>Ready for a <span class="highlight">Life-Changing Smile?</span></h2>
                 <p class="cta-description">
-                    Experience premium dental care with our comprehensive implant solutions. No compromise on quality, materials, or your perfect smile.
+                    Discover why thousands choose us for their dental transformation. Premium quality meets affordability with our comprehensive implant solutions.
                 </p>
 
                 <div class="cta-pricing">
-                    <div class="cta-pricing-label">Starting at</div>
+                    <div class="cta-pricing-label">Full Arch Starting at</div>
                     <div class="cta-pricing-value">$17,500</div>
-                    <div class="cta-pricing-subtitle">Full Arch Dental Implants</div>
-                    <p class="cta-pricing-note">Flexible financing available with approved credit</p>
+                    <div class="cta-pricing-subtitle">Complete Dental Restoration</div>
+                    <p class="cta-pricing-note">Ask about our monthly payment plans from $73/month</p>
                 </div>
 
-                <a href="#contact" class="btn-primary" style="margin-top: 30px;">Schedule Free Consultation</a>
+                <a href="#contact" class="btn-primary" style="margin-top: 30px;">Get Your Free Consultation</a>
             </div>
 
             <div class="cta-features">
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Premium Materials</h4>
-                        <p>High-quality titanium implants with zirconia crowns</p>
+                        <h4>Medical-Grade Titanium</h4>
+                        <p>FDA-approved implants designed to last a lifetime</p>
                     </div>
                 </div>
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Advanced Technology</h4>
-                        <p>3D imaging and computer-guided placement</p>
+                        <h4>Digital Smile Design</h4>
+                        <p>Preview your new smile before we begin treatment</p>
                     </div>
                 </div>
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Expert Care</h4>
-                        <p>20+ years of implant dentistry experience</p>
+                        <h4>Board-Certified Specialists</h4>
+                        <p>Performed over 4,000 successful implant procedures</p>
                     </div>
                 </div>
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Lifetime Support</h4>
-                        <p>Comprehensive warranty and ongoing care</p>
+                        <h4>Warranty Protection</h4>
+                        <p>Industry-leading lifetime warranty on all implants</p>
                     </div>
                 </div>
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Same-Day Options</h4>
-                        <p>Walk in with problem teeth, walk out smiling</p>
+                        <h4>Immediate Load Protocol</h4>
+                        <p>Leave with temporary teeth the same day as surgery</p>
                     </div>
                 </div>
                 <div class="cta-feature-item">
                     <div class="cta-feature-icon">✓</div>
                     <div>
-                        <h4>Flexible Financing</h4>
-                        <p>Multiple payment plans to fit your budget</p>
+                        <h4>Zero-Interest Options</h4>
+                        <p>Qualified patients can enjoy 0% APR financing</p>
                     </div>
                 </div>
             </div>
@@ -616,6 +756,107 @@
                     });
                 }
             });
+        });
+
+        // Dental Implant Options Slider
+        let currentIndex = 0;
+        const track = document.getElementById('sliderTrack');
+        const cards = document.querySelectorAll('.option-card');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const dotsContainer = document.getElementById('dotsContainer');
+
+        const totalCards = cards.length;
+        let cardsPerView = 3;
+        let totalPages = Math.ceil(totalCards / cardsPerView);
+
+        // Create dots
+        function createDots() {
+            dotsContainer.innerHTML = '';
+            totalPages = Math.ceil(totalCards / cardsPerView);
+            for (let i = 0; i < totalPages; i++) {
+                const dot = document.createElement('div');
+                dot.className = 'dot';
+                if (i === 0) dot.classList.add('active');
+                dot.onclick = () => goToPage(i);
+                dotsContainer.appendChild(dot);
+            }
+        }
+
+        // Update cards per view based on screen size
+        function updateCardsPerView() {
+            if (window.innerWidth <= 768) {
+                cardsPerView = 1;
+            } else if (window.innerWidth <= 1200) {
+                cardsPerView = 2;
+            } else {
+                cardsPerView = 3;
+            }
+            currentIndex = 0;
+            createDots();
+            updateSlider();
+        }
+
+        function updateSlider() {
+            const cardWidth = cards[0].offsetWidth;
+            const gap = 30;
+            const offset = currentIndex * (cardWidth + gap) * cardsPerView;
+            track.style.transform = `translateX(-${offset}px)`;
+
+            // Update dots
+            const dots = document.querySelectorAll('.dot');
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+
+            // Update button states
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex >= totalPages - 1;
+        }
+
+        function moveSlider(direction) {
+            currentIndex += direction;
+            if (currentIndex < 0) currentIndex = 0;
+            if (currentIndex >= totalPages) currentIndex = totalPages - 1;
+            updateSlider();
+        }
+
+        function goToPage(index) {
+            currentIndex = index;
+            updateSlider();
+        }
+
+        // Initialize
+        window.addEventListener('load', () => {
+            updateCardsPerView();
+        });
+
+        window.addEventListener('resize', () => {
+            updateCardsPerView();
+        });
+
+        // Touch/Swipe support
+        let startX = 0;
+        let isDragging = false;
+
+        track.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            isDragging = true;
+        });
+
+        track.addEventListener('touchend', (e) => {
+            if (!isDragging) return;
+            const endX = e.changedTouches[0].clientX;
+            const diff = startX - endX;
+
+            if (Math.abs(diff) > 50) {
+                if (diff > 0 && currentIndex < totalPages - 1) {
+                    moveSlider(1);
+                } else if (diff < 0 && currentIndex > 0) {
+                    moveSlider(-1);
+                }
+            }
+            isDragging = false;
         });
     </script>
 </body>
