@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Award-winning dental implants starting at $73/month. 20+ years experience, 4000+ successful implants. Get your free consultation today!">
+    <title>Lu Dental Care - Premium Dental Implants | Affordable & Professional</title>
+    <style>
+        /* ========================================
+           GLOBAL STYLES & RESET
+        ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Utility Classes */
+        .white-color {
+            color: #fff !important;
+        }
+
+        .align-center {
+            text-align: center !important;
+        }
+
+        /* ========================================
+           HERO SECTION
+        ======================================== */
+        .hero-wrapper {
+            position: relative;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a4d8c 0%, #0066cc 50%, #0099ff 100%);
+            overflow: hidden;
+        }
+
+        /* Animated background shapes */
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            animation: floatShapes 20s infinite ease-in-out;
+        }
+
+        .shape-1 {
+            width: 400px;
+            height: 400px;
+            top: -100px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .shape-2 {
+            width: 300px;
+            height: 300px;
+            bottom: -50px;
+            left: 10%;
+            animation-delay: 3s;
+        }
+
+        .shape-3 {
+            width: 200px;
+            height: 200px;
+            top: 40%;
+            right: 15%;
+            animation-delay: 6s;
+        }
+
+        @keyframes floatShapes {
+            0%, 100% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            33% {
+                transform: translate(30px, -30px) rotate(120deg);
+            }
+            66% {
+                transform: translate(-20px, 20px) rotate(240deg);
+            }
+        }
+
+        .hero-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-content-wrapper {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 80px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-text {
+            color: white;
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 30px;
+            text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-text h1 .highlight {
+            background: linear-gradient(120deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+        }
+
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.4rem;
+            font-weight: 600;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(10px);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            margin: 30px 0;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        .cta-wrapper {
+            display: flex;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .primary-btn {
+            padding: 22px 50px;
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #0a4d8c;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .primary-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 215, 0, 0.6);
+        }
+
+        .secondary-btn {
+            padding: 22px 50px;
+            background: transparent;
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border: 3px solid white;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .secondary-btn:hover {
+            background: white;
+            color: #0066cc;
+            transform: translateY(-5px);
+        }
+
+        /* Hero Image Side */
+        .hero-image-section {
+            position: relative;
+        }
+
+        .image-circle {
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.05));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(20px);
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            position: relative;
+            animation: rotateCircle 30s linear infinite;
+        }
+
+        @keyframes rotateCircle {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .inner-content {
+            animation: counterRotate 30s linear infinite;
+        }
+
+        @keyframes counterRotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+        .dental-icon {
+            font-size: 12rem;
+            filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+        }
+
+        /* Floating dots decoration */
+        .floating-dot {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            animation: float 4s infinite ease-in-out;
+        }
+
+        .dot-1 {
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .dot-2 {
+            top: 20%;
+            right: 15%;
+            animation-delay: 1s;
+        }
+
+        .dot-3 {
+            bottom: 15%;
+            left: 20%;
+            animation-delay: 2s;
+        }
+
+        .dot-4 {
+            bottom: 25%;
+            right: 10%;
+            animation-delay: 3s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+        /* ========================================
+           WHY CHOOSE SECTION
+        ======================================== */
+        .why-choose-section {
+            position: relative;
+            padding: 120px 20px;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 50%, #e9ecef 100%);
+            overflow: hidden;
+        }
+
+        /* Animated Background Elements */
+        .bg-decoration {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.05;
+            animation: floatDecor 15s infinite ease-in-out;
+        }
+
+        .decor-1 {
+            width: 500px;
+            height: 500px;
+            background: #0066cc;
+            top: -100px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .decor-2 {
+            width: 400px;
+            height: 400px;
+            background: #0066cc;
+            bottom: -150px;
+            left: -150px;
+            animation-delay: 5s;
+        }
+
+        .decor-3 {
+            width: 300px;
+            height: 300px;
+            background: #0066cc;
+            top: 50%;
+            left: 50%;
+            animation-delay: 10s;
+        }
+
+        @keyframes floatDecor {
+            0%, 100% {
+                transform: translate(0, 0) scale(1);
+            }
+            50% {
+                transform: translate(50px, -50px) scale(1.1);
+            }
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Section Header */
+        .section-header {
+            text-align: center;
+            margin-bottom: 80px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-subtitle {
+            color: #0066cc;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            display: inline-block;
+            position: relative;
+            padding: 0 40px;
+        }
+
+        .section-subtitle::before,
+        .section-subtitle::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            width: 30px;
+            height: 2px;
+            background: #0066cc;
+        }
+
+        .section-subtitle::before {
+            left: 0;
+        }
+
+        .section-subtitle::after {
+            right: 0;
+        }
+
+        .section-title {
+            font-size: 3.5rem;
+            color: #1a1a1a;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .section-title .highlight {
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 25px;
+            padding: 50px 35px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            border: 2px solid transparent;
+            animation: fadeInUp 0.8s ease-out backwards;
+        }
+
+        .feature-card:nth-child(1) { animation-delay: 0.1s; }
+        .feature-card:nth-child(2) { animation-delay: 0.2s; }
+        .feature-card:nth-child(3) { animation-delay: 0.3s; }
+        .feature-card:nth-child(4) { animation-delay: 0.4s; }
+        .feature-card:nth-child(5) { animation-delay: 0.5s; }
+        .feature-card:nth-child(6) { animation-delay: 0.6s; }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .feature-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            z-index: 0;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-20px) scale(1.02);
+            box-shadow: 0 25px 60px rgba(0, 102, 204, 0.3);
+            border-color: #0066cc;
+        }
+
+        .feature-card:hover .feature-content * {
+            color: white;
+        }
+
+        .feature-card:hover .feature-icon {
+            background: white;
+            color: #0066cc;
+            transform: scale(1.1) rotate(360deg);
+        }
+
+        .feature-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-icon-wrapper {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .feature-icon.card-icon {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.3);
+        }
+
+        .feature-number {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 35px;
+            height: 35px;
+            background: #d4a574;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            box-shadow: 0 5px 15px rgba(212, 165, 116, 0.4);
+        }
+
+        .feature-title {
+            font-size: 1.6rem;
+            color: #1a1a1a;
+            font-weight: 700;
+            margin-bottom: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .feature-description {
+            font-size: 1.05rem;
+            color: #666;
+            line-height: 1.8;
+            transition: color 0.3s ease;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            margin-top: 80px;
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            border-radius: 30px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 102, 204, 0.3);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+            color: white;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            display: block;
+            text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        /* CTA Button */
+        .lu-custom-button {
+            display: inline-block;
+            padding: 22px 60px;
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            color: white;
+            font-size: 1.3rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .lu-custom-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 102, 204, 0.5);
+        }
+
+        /* ========================================
+           SERVICES SECTION
+        ======================================== */
+        .section {
+            padding: 100px 20px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .service-card {
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.2);
+            transition: all 0.3s ease;
+            color: white;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 102, 204, 0.4);
+        }
+
+        .service-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .service-card p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        /* ========================================
+           REVIEWS SECTION
+        ======================================== */
+        .reviews {
+            background: #f8f9fa;
+        }
+
+        .review-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .review-card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .review-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .stars {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        .review-card p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .reviewer {
+            font-weight: 600;
+            color: #0066cc;
+            font-style: italic;
+        }
+
+        /* ========================================
+           FAQ SECTION
+        ======================================== */
+        .faq-section {
+            padding: 100px 20px;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Background Decoration */
+        .faq-bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(0, 102, 204, 0.03);
+            z-index: 0;
+        }
+
+        .faq-shape-1 {
+            width: 400px;
+            height: 400px;
+            top: -100px;
+            right: -100px;
+        }
+
+        .faq-shape-2 {
+            width: 500px;
+            height: 500px;
+            bottom: -150px;
+            left: -150px;
+        }
+
+        .faq-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Section Header */
+        .faq-header {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .faq-subtitle {
+            color: #0066cc;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+
+        .faq-title {
+            font-size: 3.2rem;
+            color: #1a1a1a;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .faq-title .highlight {
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .faq-description {
+            font-size: 1.15rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* FAQ Items */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 10px 30px rgba(0, 102, 204, 0.15);
+            border-color: #0066cc;
+        }
+
+        .faq-item.active {
+            border-color: #0066cc;
+            box-shadow: 0 15px 40px rgba(0, 102, 204, 0.2);
+        }
+
+        .faq-question {
+            padding: 30px 40px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .faq-question:hover {
+            background: #f8f9fa;
+        }
+
+        .faq-item.active .faq-question {
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+        }
+
+        .faq-question-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            transition: color 0.3s ease;
+        }
+
+        .faq-item.active .faq-question-text {
+            color: white;
+        }
+
+        .faq-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #0066cc, #0099ff);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .faq-item.active .faq-icon {
+            background: white;
+            color: #0066cc;
+            transform: rotate(45deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px;
+            padding: 0 40px 30px 40px;
+        }
+
+        .faq-answer-text {
+            font-size: 1.05rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .faq-answer-text strong {
+            color: #0066cc;
+            font-weight: 600;
+        }
+
+        /* ========================================
+           RESPONSIVE DESIGN
+        ======================================== */
+        @media (max-width: 1200px) {
+            .hero-content-wrapper {
+                gap: 50px;
+            }
+
+            .hero-text h1 {
+                font-size: 3rem;
+            }
+
+            .image-circle {
+                width: 400px;
+                height: 400px;
+            }
+
+            .dental-icon {
+                font-size: 9rem;
+            }
+
+            .section-title {
+                font-size: 2.8rem;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 968px) {
+            .hero-content-wrapper {
+                grid-template-columns: 1fr;
+                gap: 60px;
+            }
+
+            .hero-text {
+                text-align: center;
+            }
+
+            .feature-item {
+                justify-content: center;
+            }
+
+            .cta-wrapper {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .hero-image-section {
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-container {
+                padding: 20px;
+            }
+
+            .hero-text h1 {
+                font-size: 2.2rem;
+            }
+
+            .feature-item {
+                font-size: 1.1rem;
+                padding: 12px;
+            }
+
+            .feature-icon {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+            }
+
+            .primary-btn,
+            .secondary-btn {
+                padding: 18px 35px;
+                font-size: 1.1rem;
+            }
+
+            .image-circle {
+                width: 320px;
+                height: 320px;
+            }
+
+            .dental-icon {
+                font-size: 7rem;
+            }
+
+            .why-choose-section {
+                padding: 80px 20px;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+            }
+
+            .section-description {
+                font-size: 1rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .feature-card {
+                padding: 40px 25px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .lu-custom-button {
+                padding: 18px 40px;
+                font-size: 1.1rem;
+            }
+
+            .section {
+                padding: 60px 20px;
+            }
+
+            .faq-section {
+                padding: 60px 20px;
+            }
+
+            .faq-title {
+                font-size: 2.2rem;
+            }
+
+            .faq-question {
+                padding: 20px 25px;
+            }
+
+            .faq-question-text {
+                font-size: 1.1rem;
+            }
+
+            .faq-item.active .faq-answer {
+                padding: 0 25px 25px 25px;
+            }
+
+            .faq-answer-text {
+                font-size: 1rem;
+            }
+
+            .faq-icon {
+                width: 35px;
+                height: 35px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========================================
+         HERO SECTION
+    ======================================== -->
+    <section class="hero-wrapper">
+        <!-- Background Shapes -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+        <div class="bg-shape shape-3"></div>
+
+        <div class="hero-container">
+            <div class="hero-content-wrapper">
+                <!-- Left Content -->
+                <div class="hero-text">
+                    <h1>
+                        When It Comes To <span class="highlight">Dental Implants</span>...
+                        You Deserve The Best
+                    </h1>
+
+                    <p class="tagline">
+                        Experience superior service, impeccable results, and unmatched expertise at a price you can afford.
+                    </p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>20+ Years Experience</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>4,000+ Successful Implants</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>Flexible Financing from $73/Month</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">✓</span>
+                            <span>5-Year Clinical Guarantee</span>
+                        </div>
+                    </div>
+
+                    <div class="cta-wrapper">
+                        <a href="#contact" class="primary-btn">Get Free Consultation</a>
+                        <a href="#pricing" class="secondary-btn">View Our Pricing</a>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="hero-image-section">
+                    <div class="floating-dot dot-1"></div>
+                    <div class="floating-dot dot-2"></div>
+                    <div class="floating-dot dot-3"></div>
+                    <div class="floating-dot dot-4"></div>
+
+                    <div class="image-circle">
+                        <div class="inner-content">
+                            <div class="dental-icon">🦷</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         WHY CHOOSE SECTION
+    ======================================== -->
+    <section class="why-choose-section">
+        <!-- Background Decorations -->
+        <div class="bg-decoration decor-1"></div>
+        <div class="bg-decoration decor-2"></div>
+        <div class="bg-decoration decor-3"></div>
+
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <div class="section-subtitle">Our Commitment</div>
+                <h2 class="section-title">
+                    Why Choose <span class="highlight">Catalina Dental?</span>
+                </h2>
+                <p class="section-description">
+                    We combine cutting-edge technology, experienced professionals, and personalized care to deliver exceptional dental implant results that last a lifetime.
+                </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">🏆</div>
+                            <div class="feature-number">01</div>
+                        </div>
+                        <h3 class="feature-title">20+ Years Experience</h3>
+                        <p class="feature-description">
+                            Our team brings over two decades of combined expertise in dental implantology, ensuring you receive the highest standard of care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">✓</div>
+                            <div class="feature-number">02</div>
+                        </div>
+                        <h3 class="feature-title">4,000+ Successful Implants</h3>
+                        <p class="feature-description">
+                            With thousands of successful procedures, we've mastered the art and science of dental implants to give you a confident smile.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">🔬</div>
+                            <div class="feature-number">03</div>
+                        </div>
+                        <h3 class="feature-title">Advanced Technology</h3>
+                        <p class="feature-description">
+                            State-of-the-art equipment including CBCT scans and 3D imaging ensure precise, predictable, and comfortable treatments.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">💎</div>
+                            <div class="feature-number">04</div>
+                        </div>
+                        <h3 class="feature-title">Premium Materials</h3>
+                        <p class="feature-description">
+                            We use only the highest quality materials including zirconia and titanium for durability, aesthetics, and biocompatibility.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">💰</div>
+                            <div class="feature-number">05</div>
+                        </div>
+                        <h3 class="feature-title">Flexible Financing</h3>
+                        <p class="feature-description">
+                            Affordable monthly payment plans starting at just $73/month make your dream smile accessible and budget-friendly.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-content">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon card-icon">🛡️</div>
+                            <div class="feature-number">06</div>
+                        </div>
+                        <h3 class="feature-title">5-Year Guarantee</h3>
+                        <p class="feature-description">
+                            We stand behind our work with a comprehensive 5-year clinical guarantee, giving you complete peace of mind.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4000+</span>
+                        <span class="stat-label">Implants Placed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5000+</span>
+                        <span class="stat-label">Happy Patients</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="align-center" style="margin-top: 60px;">
+                <a href="#contact" class="lu-custom-button">Schedule Your Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SERVICES SECTION
+    ======================================== -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">What We Offer</div>
+                <h2 class="section-title">Comprehensive Dental Services</h2>
+                <p class="section-description">
+                    From preventive care to advanced procedures, we provide complete dental solutions for your entire family.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3 class="white-color">🦷 Preventive Care</h3>
+                    <p>Dental check-ups, cleanings, and sealants to keep your smile healthy.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">👶 Pediatric Dentistry</h3>
+                    <p>Gentle care for children with kid-friendly explanations and fun rewards.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">🔧 Restorative</h3>
+                    <p>Crowns, bridges, dental implants, and Bioclear restorations.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">😁 Cosmetic</h3>
+                    <p>Invisalign, clear aligners, and minimally invasive smile enhancements.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">🚨 Emergency Care</h3>
+                    <p>Same-day treatment for dental emergencies when you need it most.</p>
+                </div>
+                <div class="service-card">
+                    <h3 class="white-color">🦴 Oral Surgery</h3>
+                    <p>Tooth extractions, wisdom teeth removal, and advanced procedures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         REVIEWS SECTION
+    ======================================== -->
+    <section class="section reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Testimonials</div>
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p class="section-description">
+                    Real stories from real patients who transformed their smiles with us.
+                </p>
+            </div>
+
+            <div class="review-cards">
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The entire implant process took approximately one year. Dr. Lu and his staff were consistently attentive and thorough. The result is exceptional - it feels like my natural tooth!"</p>
+                    <p class="reviewer">— Kitty, Oct 2025</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"I've been going to Dr. Ben Lu for over 9 years. He's detailed-oriented, thorough, and kind. I drive an hour to see him because I only trust him with my teeth!"</p>
+                    <p class="reviewer">— DM L, Aug 2025</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Everyone was so nice and accommodating with my toddler. Dr. Lu was very explanatory and had great solutions. Can't wait to continue care!"</p>
+                    <p class="reviewer">— Skylar Didway, Aug 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FAQ SECTION
+    ======================================== -->
+    <section class="faq-section" id="faq">
+        <!-- Background Shapes -->
+        <div class="faq-bg-shape faq-shape-1"></div>
+        <div class="faq-bg-shape faq-shape-2"></div>
+
+        <div class="faq-container">
+            <!-- Section Header -->
+            <div class="faq-header">
+                <div class="faq-subtitle">Got Questions?</div>
+                <h2 class="faq-title">
+                    Frequently Asked <span class="highlight">Questions</span>
+                </h2>
+                <p class="faq-description">
+                    Find answers to the most common questions about dental implants, procedures, costs, and what to expect during your treatment.
+                </p>
+            </div>
+
+            <!-- FAQ List -->
+            <div class="faq-list">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">What are dental implants and how do they work?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Dental implants are <strong>titanium posts</strong> that are surgically placed into your jawbone to act as artificial tooth roots. They fuse with your bone through a process called osseointegration, providing a stable foundation for replacement teeth. Once healed, a custom crown, bridge, or denture is attached to the implant, giving you a natural-looking and fully functional replacement tooth that can last a lifetime with proper care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">How much do dental implants cost?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Our <strong>single dental implants start at just $73/month</strong> with flexible financing options. Full arch implants begin at $17,500. The total cost depends on factors like the number of implants needed, whether bone grafting is required, and the type of restoration. We offer <strong>free consultations</strong> where we'll provide a personalized treatment plan and exact pricing based on your specific needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">Does the dental implant procedure hurt?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Most patients report <strong>minimal discomfort</strong> during and after the procedure. We use local anesthesia during surgery, and we're certified in conscious sedation for anxious patients. After the procedure, any discomfort can typically be managed with over-the-counter pain medication. Most patients return to normal activities within 24-48 hours and describe the recovery as easier than expected.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">How long do dental implants last?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            With proper care and maintenance, dental implants can <strong>last a lifetime</strong>. The implant itself (the titanium post) has a success rate of over 95% and rarely needs replacement. The crown or restoration on top may need replacement after 10-15 years due to normal wear. We provide a <strong>5-year clinical guarantee</strong> and include 2 hygiene appointments to help ensure the longevity of your implants.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">Am I a candidate for dental implants?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Most people with missing teeth are candidates for dental implants. Ideal candidates have <strong>adequate bone density</strong>, healthy gums, and good overall health. Even if you have bone loss, we can often perform bone grafting to make implants possible. The best way to know if you're a candidate is through a <strong>free consultation</strong> which includes a CBCT scan to evaluate your bone structure and create a personalized treatment plan.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">What is the dental implant process timeline?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            The complete process typically takes <strong>3-6 months</strong>. First, the implant is surgically placed and needs 2-4 months to fuse with the bone. During healing, you may have a temporary tooth. Once healed, an abutment is attached, and impressions are taken for your custom crown. The final crown is placed 2-3 weeks later. We also offer <strong>same-day implants</strong> where you can receive a temporary tooth immediately after implant placement.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">What's the difference between dental implants and dentures?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Traditional dentures rest on your gums and can slip, click, or require messy adhesives. Dental implants are <strong>permanently anchored</strong> in your jawbone, providing superior stability and restoring up to <strong>98% of chewing ability</strong>. Implants also prevent bone loss that occurs with dentures, maintain facial structure, and feel completely natural. While implants have a higher upfront cost, they're more comfortable, functional, and cost-effective long-term.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span class="faq-question-text">Do you offer financing options?</span>
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="faq-answer-text">
+                            Yes! We believe everyone deserves a beautiful smile. We offer <strong>flexible monthly payment plans</strong> starting at just $73/month for single implants. We work with multiple financing companies to find the best option for your budget. No sacrifice in quality, materials, or experience – just affordable payments that make dental implants accessible. Ask about our current promotions during your free consultation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="align-center" style="margin-top: 70px;">
+                <a href="#contact" class="lu-custom-button">Get Your Free Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         JAVASCRIPT
+    ======================================== -->
+    <script>
+        // FAQ Toggle Function
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            const allItems = document.querySelectorAll('.faq-item');
+
+            // Close all other FAQs
+            allItems.forEach(item => {
+                if (item !== faqItem) {
+                    item.classList.remove('active');
+                }
+            });
+
+            // Toggle current FAQ
+            faqItem.classList.toggle('active');
+        }
+
+        // Optional: Close FAQ when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.faq-item')) {
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+            }
+        });
+
+        // Smooth Scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
